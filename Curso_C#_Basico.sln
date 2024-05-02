@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Curso_C#_Basico", "Curso_C#_Basico\Curso_C#_Basico.csproj", "{953B9981-DBD2-4A5D-9AB2-081D804F27CD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjetoPOO", "ProjetoPOO\ProjetoPOO.csproj", "{3B58B55F-0BB3-41CF-A50C-933061709C45}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{953B9981-DBD2-4A5D-9AB2-081D804F27CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{953B9981-DBD2-4A5D-9AB2-081D804F27CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{953B9981-DBD2-4A5D-9AB2-081D804F27CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{953B9981-DBD2-4A5D-9AB2-081D804F27CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B58B55F-0BB3-41CF-A50C-933061709C45}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B58B55F-0BB3-41CF-A50C-933061709C45}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B58B55F-0BB3-41CF-A50C-933061709C45}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B58B55F-0BB3-41CF-A50C-933061709C45}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
