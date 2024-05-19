@@ -65,10 +65,44 @@ Tipos primitivos não aceitam null. São tipos não nulos. Algumas alternativas 
 Nullable<string> nomeCompleto = null;
 ```
 ```c#  
-string nomeCompleto? = null;
+string? nomeCompleto = null;
 ```
 
 Verifica se nomeCompleto é nulo, se for, atribui "N/A".
 ```c#  
 string nome = nomeCompleto ?? "N/A";
 ```
+
+### Modificadores de Acesso
+
+| Modificadores | Na propria classe  | Subclasses do Assembly | Classes do Assembly | Subclasses *FORA* do Assembly | Classes *FORA* do Assembly |
+| ------- | -------- | -------- |  -------- | -------- | -------- |
+| public | X |  X | X | X | X | X |
+| private | X |  - | - | - | - | - |
+| internal | X |  X | X | - | - 
+| protected | X |  X | - | X | - 
+
+*Assembly = arquivo .dll*
+
+Ainda existe o modificador  ```file```.
+É apenas é visível no arquivo de origem atual. Os tipos com escopo de arquivo geralmente são usados para geradores de fonte.
+
+#### Modificadores padrão
+| Recurso  | Valor padrão   |
+| ------- | -------- |
+| Classe   | internal    |
+| Struct   | internal    |
+| Enum   | internal    |
+| Interface   | internal    |
+| Métodos, campos e propriedades   | private    |
+
+### Delegates
+
+Delegates são semelhantes a Functional Interfaces no java. Servem para representar e encapsular um método. Também ligados ao conceito de Lambda Expression.
+
+#### Principais Delegates pré definidos
+| Delegate  | Assinatura   |
+| ------- | -------- |
+| Predicate   | T -> bool   |
+| Action   | T -> sem retorno   |
+| Function   | T, R -> R   |
