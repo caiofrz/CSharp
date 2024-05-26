@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjetoPOO", "ProjetoPOO\Pr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Curso_C#_Essentials", "Curso_C#_Essentials\Curso_C#_Essentials.csproj", "{15FD511F-FEE3-4A22-98C5-E0BBC6E8134C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Curso_SOLID", "Curso_SOLID\Curso_SOLID.csproj", "{4BDA52D5-601B-44A1-98CA-18F2F19FF3BC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,5 +32,9 @@ Global
 		{15FD511F-FEE3-4A22-98C5-E0BBC6E8134C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{15FD511F-FEE3-4A22-98C5-E0BBC6E8134C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{15FD511F-FEE3-4A22-98C5-E0BBC6E8134C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4BDA52D5-601B-44A1-98CA-18F2F19FF3BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4BDA52D5-601B-44A1-98CA-18F2F19FF3BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4BDA52D5-601B-44A1-98CA-18F2F19FF3BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4BDA52D5-601B-44A1-98CA-18F2F19FF3BC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
