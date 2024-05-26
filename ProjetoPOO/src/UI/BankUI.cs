@@ -1,4 +1,5 @@
 
+using System.Globalization;
 using ProjetoPOO.Models;
 using ProjetoPOO.Models.Accounts;
 
@@ -42,7 +43,8 @@ class BankUI
             Console.Clear();
             Console.WriteLine("ATENÇÃO!!!! Somente valores maiores que R$0.0 ");
             Console.WriteLine("Informe o valor a ser depositado: R$ ");
-            Double value = Convert.ToDouble(Console.ReadLine());
+            Double value = Convert.ToDouble(Console.ReadLine(), CultureInfo.InvariantCulture);
+            Console.WriteLine("" + value);
             account.Deposit(value);
             Console.ReadKey();
         }

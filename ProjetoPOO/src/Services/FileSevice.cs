@@ -6,7 +6,7 @@ namespace ProjetoPOO.Services;
 
 class FileService
 {
-    private string filePath = @"C:\Users\caguiar\Documents\Curso_C#_Básico\ProjetoPOO\Statement.txt";
+    private string filePath = "Statement.txt";
     public void saveTransaction(Transaction Transaction)
     {
         try
@@ -30,7 +30,14 @@ class FileService
             line = sr.ReadLine();
             while (line != null)
             {
-                Console.WriteLine(line);
+                string[] split = line.Split(",");
+                Console.WriteLine($"""
+                Data: {split[0]} 
+                Tipo de Operação: {split[1]}
+                Valor: {split[2]}
+                Saldo atual: {split[3]}
+                ---------------------------------------------
+                """                );
                 line = sr.ReadLine();
             }
             sr.Close();
