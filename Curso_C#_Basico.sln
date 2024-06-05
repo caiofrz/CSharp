@@ -25,6 +25,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdapterPattern", "Curso_Des
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BridgePattern", "Curso_Design_Patterns_C#\BridgePattern\BridgePattern.csproj", "{2F434A2A-AB08-49DF-A4D4-74E24BAEB77B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChainOfResponsabilityPattern", "Curso_Design_Patterns_C#\ChainOfResponsabilityPattern\ChainOfResponsabilityPattern.csproj", "{DB6CC968-A982-4D39-A07C-74AC1FE30793}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -74,6 +76,10 @@ Global
 		{2F434A2A-AB08-49DF-A4D4-74E24BAEB77B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2F434A2A-AB08-49DF-A4D4-74E24BAEB77B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2F434A2A-AB08-49DF-A4D4-74E24BAEB77B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB6CC968-A982-4D39-A07C-74AC1FE30793}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB6CC968-A982-4D39-A07C-74AC1FE30793}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB6CC968-A982-4D39-A07C-74AC1FE30793}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB6CC968-A982-4D39-A07C-74AC1FE30793}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{027B4EAD-08BF-46E2-A175-0EC2819D7CE8} = {79BDB72D-1FAD-4012-915D-A7B443A10F33}
@@ -82,5 +88,6 @@ Global
 		{E76ECB0C-CC70-4E1A-8935-E5C2705138B6} = {79BDB72D-1FAD-4012-915D-A7B443A10F33}
 		{E9F31C0B-1F50-4857-AD9B-D1C7AB6199D8} = {79BDB72D-1FAD-4012-915D-A7B443A10F33}
 		{2F434A2A-AB08-49DF-A4D4-74E24BAEB77B} = {79BDB72D-1FAD-4012-915D-A7B443A10F33}
+		{DB6CC968-A982-4D39-A07C-74AC1FE30793} = {79BDB72D-1FAD-4012-915D-A7B443A10F33}
 	EndGlobalSection
 EndGlobal
